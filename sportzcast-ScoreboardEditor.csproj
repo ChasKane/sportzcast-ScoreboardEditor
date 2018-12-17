@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="method-draw\extensions\shapelib\arrow.json" />
+    <Content Remove="method-draw\extensions\shapelib\dialog_balloon.json" />
+    <Content Remove="method-draw\extensions\shapelib\flowchart.json" />
+    <Content Remove="method-draw\extensions\shapelib\game.json" />
+    <Content Remove="method-draw\extensions\shapelib\math.json" />
+    <Content Remove="method-draw\extensions\shapelib\misc.json" />
+    <Content Remove="method-draw\extensions\shapelib\music.json" />
+    <Content Remove="method-draw\extensions\shapelib\nature.json" />
+    <Content Remove="method-draw\extensions\shapelib\object.json" />
+    <Content Remove="method-draw\extensions\shapelib\raphael_1.json" />
+    <Content Remove="method-draw\extensions\shapelib\social.json" />
+    <Content Remove="method-draw\extensions\shapelib\symbol.json" />
+    <Content Remove="method-draw\extensions\shapelib\ui.json" />
+    <Content Remove="method-draw\extensions\shapelib\weather.json" />
+    <Content Remove="editor\extensions\shapelib\arrow.json" />
+    <Content Remove="editor\extensions\shapelib\dialog_balloon.json" />
+    <Content Remove="editor\extensions\shapelib\flowchart.json" />
+    <Content Remove="editor\extensions\shapelib\game.json" />
+    <Content Remove="editor\extensions\shapelib\math.json" />
+    <Content Remove="editor\extensions\shapelib\music.json" />
+    <Content Remove="editor\extensions\shapelib\nature.json" />
+    <Content Remove="editor\extensions\shapelib\object.json" />
+    <Content Remove="editor\extensions\shapelib\social.json" />
+    <Content Remove="editor\extensions\shapelib\symbol.json" />
+    <Content Remove="editor\extensions\shapelib\ui.json" />
+    <Content Remove="editor\extensions\shapelib\weather.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="method-draw\extensions\shapelib\arrow.json" />
+    <None Include="method-draw\extensions\shapelib\dialog_balloon.json" />
+    <None Include="method-draw\extensions\shapelib\flowchart.json" />
+    <None Include="method-draw\extensions\shapelib\game.json" />
+    <None Include="method-draw\extensions\shapelib\math.json" />
+    <None Include="method-draw\extensions\shapelib\misc.json" />
+    <None Include="method-draw\extensions\shapelib\music.json" />
+    <None Include="method-draw\extensions\shapelib\nature.json" />
+    <None Include="method-draw\extensions\shapelib\object.json" />
+    <None Include="method-draw\extensions\shapelib\raphael_1.json" />
+    <None Include="method-draw\extensions\shapelib\social.json" />
+    <None Include="method-draw\extensions\shapelib\symbol.json" />
+    <None Include="method-draw\extensions\shapelib\ui.json" />
+    <None Include="method-draw\extensions\shapelib\weather.json" />
+    <None Include="editor\extensions\shapelib\arrow.json" />
+    <None Include="editor\extensions\shapelib\dialog_balloon.json" />
+    <None Include="editor\extensions\shapelib\flowchart.json" />
+    <None Include="editor\extensions\shapelib\game.json" />
+    <None Include="editor\extensions\shapelib\math.json" />
+    <None Include="editor\extensions\shapelib\music.json" />
+    <None Include="editor\extensions\shapelib\nature.json" />
+    <None Include="editor\extensions\shapelib\object.json" />
+    <None Include="editor\extensions\shapelib\social.json" />
+    <None Include="editor\extensions\shapelib\symbol.json" />
+    <None Include="editor\extensions\shapelib\ui.json" />
+    <None Include="editor\extensions\shapelib\weather.json" />
+  </ItemGroup>
+</Project>
