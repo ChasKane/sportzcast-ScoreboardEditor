@@ -22,3 +22,4 @@ namespace sportzcast_ScoreboardEditor
                 .UseStartup<Startup>();
     }
 }
+//ignore this
